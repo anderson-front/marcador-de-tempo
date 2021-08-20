@@ -27,7 +27,6 @@ if( isset($_POST) && !empty ($_POST) ){
     $min_ponto = floor($resultado / 60);
     $resultado = $resultado - ($min_ponto * 60);
     $secs_ponto = $resultado;
-    
     $date = new DateTime();
     $date->setTime($hora_ponto, $min_ponto, $secs_ponto);
     echo $date->format('H:i:s');
