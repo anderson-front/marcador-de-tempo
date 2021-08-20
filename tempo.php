@@ -1,23 +1,32 @@
 <?php
  
-if( isset($_POST) && !empty ($_POST) ){
-
-    echo '<pre>';
     $entrada = $_POST['entrada'];
     $saida = $_POST['saida'];
-
     $acumulador1=[];
+    
     foreach($entrada as $value){
 
-        $hora1 = explode(":", $value);
-        $acumulador1[] = ($hora1[0] * 3600) + ($hora1[1] * 60);
+        if(!empty($value)){
+
+            $hora1 = explode(":", $value);
+            $acumulador1[] = ($hora1[0] * 3600) + ($hora1[1] * 60);
+        
+        }else{
+            return;
+        }
 
     }
     $acumulador2=[];
     foreach($saida as $value){
 
-        $hora2 = explode(":", $value);
-        $acumulador2[] = ($hora2[0] * 3600) + ($hora2[1] * 60);
+        if(!empty($value)){
+        
+            $hora2 = explode(":", $value);
+            $acumulador2[] = ($hora2[0] * 3600) + ($hora2[1] * 60);
+        
+        }else{
+            return;
+        }
 
     }
 
@@ -31,7 +40,3 @@ if( isset($_POST) && !empty ($_POST) ){
     $date = new DateTime();
     $date->setTime($hora_ponto, $min_ponto, $secs_ponto);
     echo $date->format('H:i:s');
-   
-}
-
-?>
