@@ -12,6 +12,7 @@
             $acumulador1[] = ($hora1[0] * 3600) + ($hora1[1] * 60);
         
         }else{
+            echo 'Informe a hora Inicial';
             return;
         }
 
@@ -25,6 +26,7 @@
             $acumulador2[] = ($hora2[0] * 3600) + ($hora2[1] * 60);
         
         }else{
+            echo 'Informe a hora Final';
             return;
         }
 
