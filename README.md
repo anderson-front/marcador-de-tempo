@@ -28,7 +28,9 @@ O layout teve uso apenas de css:
 
 ## 🚀 Como executar o projeto
 
-Este projeto deve ser iniciadoda seguinte forma:
+Este projeto deve ser iniciado da seguinte forma:
+
+XAMPP INICIALIZADO deve colocar o fonte no htdocs. No meu caso usando vs code inicio o terminal e executo o comando abaixo:
 
 Comando no terminal para isso:
 php -S localhost:8081
