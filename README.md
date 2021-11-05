@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    🌱 Segundo projeto para entrevista.
+    🌱 Projeto pessoal.
 </h3>
 
 
