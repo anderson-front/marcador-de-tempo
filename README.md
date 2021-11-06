@@ -58,7 +58,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 👨‍💻 Contribuidores
 
 💜 Um super thanks 👏 para Felipe, grande incentivador e amigo que tive o provilégio de trabalhar na última empresa do qual aprendi várias coisas legais :)
-E um super Obrigado a Nano Incub pela iniciativa e pelo tempo que disponibilizou para eu  completar esse desafio.
 
 ---
 
