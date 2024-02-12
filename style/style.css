@@ -147,7 +147,11 @@ input {
     transform:rotate(360deg);
   }
 
-  .teste {
+  .geral {
     width: 100%;
     display: flex;
+  }
+
+  .salvar {
+    cursor: pointer;
   }

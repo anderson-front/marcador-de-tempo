@@ -26,7 +26,7 @@
     </section>
     <section class="time">
         <form class="form">
-            <div class="teste">
+            <div class="geral">
             <div class="hours">
                 <div class="form-group" id="campo1">
                     <label>Inicio</label>
@@ -36,16 +36,11 @@
                     <input type="time" name="saida[]" class="hour_start">
                     
                  <div class="botoes"><button class="botao efeito6" type="button" id='add-campo'>+</button></div>
-                 <input type="submit" id="salvar" name="salvar" value="Calcular">
+                 <input type="submit" id="salvar" name="salvar" class="salvar" value="Calcular">
                  
             </div>
             
-            </div>                    
-            
-
-                
-
-                
+            </div>
             </div>
             <div class="resposta"></div>
         </form>
