@@ -1,4 +1,8 @@
 <?php
+
+require __DIR__.'/fullstackphp/fsphp.php';
+
+// fullStackPHPClassSession("", __LINE__);
  
     $entrada = $_POST['entrada'];
     $saida = $_POST['saida'];
